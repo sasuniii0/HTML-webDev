@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+</head>
+<body>
+    <!--Table tags
+        <table> - table
+        <thead> - define table header
+        <th> - table head
+        <tbody> - table body
+        <tr> - table row
+        <td> - table data
+        <tfoot> - table footer
+        <caption> - table caption
+        <tfoot> - table footer
+    -->
+    <table border = "1">
+        <caption>Student Table</caption>
+        <thead>
+            <th>#ID</th>
+            <th>First Name</th>
+            <th>Surname</th>
+            <th>Mobile</th>
+            <th>Address</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Sasuni</td>
+            <td>Wijerathne</td>
+            <td>+94 76 532 5914</td>
+            <td>Colombo</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hiruna</td>
+            <td>Dissanayake</td>
+            <td>+94 76 776 8197</td>
+            <td>Kadawatha</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <th>#ID</th>
+            <td>First Name</td>
+            <td>Surname</td>
+            <td>Mobile</td>
+            <td>Address</td>
+        </tfoot>
+    </table>
+
+    <table border = "1">
+        <caption>Student Table</caption>
+        <thead>
+        <th>#ID</th>
+        <th>First Name</th>
+        <th>Surname</th>
+        <th>Mobile 1</th>
+        <th>Mobile 2</th>
+        <th>Address</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Sasuni</td>
+            <td>Wijerathne</td>
+            <td>+94 76 532 5914</td>
+            <th>+94 77 777 7777</th>
+            <td>Colombo</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hiruna</td>
+            <td>Dissanayake</td>
+            <td colspan = "2">+94 76 776 8197</td>
+            <td>Kadawatha</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <th>#ID</th>
+            <td>First Name</td>
+            <td>Surname</td>
+            <td>Mobile 1</td>
+            <td>Mobile 2</td>
+            <td>Address</td>
+        </tfoot>
+    </table>
+
+    <table border = "1">
+        <caption>Student Table</caption>
+        <thead>
+        <th>#ID</th>
+        <th>First Name</th>
+        <th>Surname</th>
+        <th>Mobile</th>
+        <th>Address</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Sasuni</td>
+            <td>Wijerathne</td>
+            <td rowspan="2">+94 76 532 5914</td>
+            <td>Colombo</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hiruna</td>
+            <td>Dissanayake</td>
+            <td>Kadawatha</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Chamodi</td>
+            <td>Perera</td>
+            <td>+94 76 123 4567</td>
+            <td>Matara</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <th>#ID</th>
+        <td>First Name</td>
+        <td>Surname</td>
+        <td>Mobile</td>
+        <td>Address</td>
+        </tfoot>
+    </table>
+
+    <table border = "1">
+        <thead>
+        <th>#Id</th>
+        <th> Name</th>
+        <th colspan="2"> Emails</th>
+        <th> Parent's Name</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Kavindu</td>
+            <td>Kavindu@gmail.com</td>
+            <td>Kavindu2@gmail.com</td>
+            <td>Mr.Rathnayake</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Janith</td>
+            <td>Janith1@gmail.com</td>
+            <td>Janith2@gmail.com</td>
+            <td>Mr.Sarath</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sheron</td>
+            <td colspan="2">sheron@gmail.com</td>
+            <td rowspan="2">Mr.Kamal</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Brian</td>
+            <td>brian1@gmail.com</td>
+            <td>brian2@gmail.com</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Vishwa</td>
+            <td>vishwa1@gmail.com</td>
+            <td>vishwa2@gmail.com</td>
+            <td>Mr.Nihal</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Saroja</td>
+            <td colspan="2" rowspan="2">saroja@gmail.com</td>
+            <td rowspan="2">Mr.Nelson</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Sarojini</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <th>#Id</th>
+        <td> Name</td>
+        <td colspan="2"> Emails</td>
+        <td> Parent's Name</td>
+        </tfoot>
+    </table>
+</body>
+</html>

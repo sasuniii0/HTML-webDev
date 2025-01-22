@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multimedia in HTML</title>
+</head>
+<body>
+    <!--Multimedia in HTML
+    -Images
+    -Audio
+    -Video
+    -->
+
+    <!--Images --  <img>/<picture>-->
+
+    <img src = "assests/img1.jpg" title = "Sasuni" alt = "my pic 1" width = "200">
+    <img src = "assests/img2.jpg" title = "Sasuni" alt = "my pic 2" width = "200">
+    <img src = "assests/img3.jpg" title = "Sasuni" alt = "my pic 3" width = "200">
+    <img src = "assests/img4.jpg" title = "Sasuni" alt = "my pic 4" width = "200">
+
+    <picture>
+        <source srcset = "assests/img1.jpg" type = "image/jpg" media="(min-width:1000px)">
+        <source srcset = "assests/img2.jpg" type = "image/jpg" media="(min-width:1000px)">
+        <img src = "assests/img4.jpg" title = "Sasuni" alt = "my pic 4" width = "200">
+    </picture>
+
+</body>
+</html>
