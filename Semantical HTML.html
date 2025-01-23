@@ -2,10 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <p>IJSE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cumque delectus enim harum nam nemo recusandae suscipit tempora veritatis vero. Dicta et labore nobis quis sit soluta unde velit vitae.</p>
+    <title>Semantic elements</title>
+    <header>
+        <h1>Main Page Title</h1> <!--Main Page Title-->
+    </header>
 </head>
 <body>
+<!Navigation-->
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+<!Article-->
+<article class = "film_review">
+    <h2>Jurassic Park</h2>
+    <section class = "main review">
+        <p>Directed by Steven Spielberg, Jurassic Park
+            is a 1993 American science fiction adventure film.
+            The film is based on the 1990 novel of the same name
+            by Michael Crichton.</p>
+    </section>
+    <section class = "secondary review">
+        <p>After an industrial sabotage, a small group of visitors,
+            including Hammond's grandchildren, struggle to survive and
+            escape the perilous island.</p>
+    </section>
+</article>
+<article class = "user_reviews">
+    <h2>Too scary</h2>
+    <p>Way too scary for me.</p>
+    <h2>Great movie</h2>
+</article>
+<!Section-->
+<section>
+    <h2>Heading</h2>
+    <p>Bunch of awesome content</p>
+</section>
+<!--Progress-->
+<label>
+    Uploading Document: <progress value="70" max="100">70 %</progress>
+</label>
+<!-- output -->
 
+<form id="example-form">
+    <input type="range" id="b" name="b" value="50" /> +
+    <input type="number" id="a" name="a" value="10" /> =
+    <output name="result" for="a b">60</output>
+</form>
+
+
+<!--Aside-->
+<article>
+    <p>
+        The Disney movie <cite> The Little Mermaid</cite> is a classic.
+    </p>
+    <aside>
+        <p>
+            The movie was released in 1989.
+        </p>
+    </aside>
+</article>
+<!--figure-->
+<!-- Just an image -->
+<figure>
+    <img src="assests/img5.jpg" alt="The food." width = "100px" />
+</figure>
+
+<!--mark -->
+<blockquote>
+    It is a period of civil war. Rebel spaceships, striking from a hidden
+    base, have won their first victory against the evil Galactic Empire.
+    During the battle, <mark>Rebel spies managed to steal secret plans</mark>
+    to the Empire's ultimate weapon, the DEATH STAR, an armored space
+    station with enough power to destroy an entire planet.
+</blockquote>
+
+<!-- figcaption -->
+<!-- Image with a caption -->
+<figure>
+    <img src="assests/img5.jpg" alt="The food." width = "100px" />
+    <figcaption>Foods</figcaption>
+</figure>
+<!--Main-->
+<main id="main-content">
+    <!-- main page content -->
+    <h1>Apples</h1>
+    <p>The apple is the pomaceous fruit of the apple tree.</p>
+</main>
+<!--summary-->
+<details open>
+    <summary>Overview</summary>
+    <ol>
+        <li>Cash on hand: $500.00</li>
+        <li>Current invoice: $75.30</li>
+        <li>Due date: 5/6/19</li>
+    </ol>
+</details>
+<!-- details -->
+<details>
+    <summary>System Requirements</summary>
+    <p>
+        Requires a computer running an operating system. The computer must
+        have some memory and ideally some kind of long-term storage.
+        An input device as well as some form of output device is recommended.
+    </p>
+</details>
+
+<!--Time-->
+<p>The concert starts at
+    <time datetime="2018-07-07T20:00:00">20:00</time>.
+</p>
+<p>
+    The concert took place on
+    <time datetime="2001-05-15T19:00">May 15</time>.
+</p>
+
+<!--Footer-->
+    <footer>
+        Copyright © 2023 Football History Archives. All Rights Reserved.
+    </footer>
 </body>
 </html>
