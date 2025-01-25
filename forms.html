@@ -5,7 +5,9 @@
     <title>HTML forms</title>
 </head>
 <body>
-    <form>
+    <form action = "http://localhost:8080/form " method = "post">
+
+        <!-----------------------------------------------input------------------------------------------------------------->
         <input
                 type = "text"
                 placeholder="Enter your Name"
@@ -158,6 +160,65 @@
          krgn e data tika api kyna place ekata e dewl set krna eka/// page eka refresh wnwa-->
         <!-- type = reset ---- page eka refresh krla denwa... input krla thiyna data are reset krnwa refresh krnwa-->
         <!-- type = hidden ---- data collect krnkota data hide krnn... eywa eliyt display wenne nh-->
+
+        <h3>-------------------------------------------------------------------------------------------------------</h3>
+
+        <!-----------------------------------------------label ------------------------------------------------------------->
+
+        <div>
+            <label for = "first-name">First Name</label><br>
+            <input type = "text"
+                   id = "first-name"
+                   placeholder=" Enter First Name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for = "last-name" >Last Name</label><br>
+            <input type = "text"
+                   id = "last-name"
+                   placeholder=" Enter Last Name">
+        </div>
+
+        <br>
+        <!-----------------------------------------------textarea ------------------------------------------------------------->
+        <div>
+            <label for="address">Address</label><br>
+            <textarea
+                    placeholder="Enter your address"
+                    id = "address"
+                    rows = "10"
+                    cols = "50">
+            </textarea>
+        </div>
+        <br>
+        <!-----------------------------------------------button ------------------------------------------------------------->
+
+        <div>
+            <button type = button>Click</button>
+            <button type = "submit">Submit</button>
+            <button type = "reset">Reset</button>
+        </div>
+
+        <br>
+
+        <div>
+            <label>First Name</label><br>
+            <input
+                    type = "text"
+                    placeholder=" Enter First Name"
+                    name = "firstname">
+        </div>
+
+        <!-- labels link krnn pulwun id/ for kyna attributes wlin-->
+        <!--<textarea></textarea>---- use krnn puluwn godak ida yna nisa...-->
+        <!-- forms waladi api name kyna attribute eka aniwaryen use krnn one... api data set krnkota nattam data
+        adurnna amarui waradi fields wala data set wenne-->
+        <!--<form action = ""> methna api action ekt dnn one backend eke tool ekakata-->
+
+
+
     </form>
 </body>
 </html>
