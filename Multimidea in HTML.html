@@ -13,7 +13,7 @@
 
     <!--Images --  <img>/<picture>-->
 
-    <img src = "assests/images/img1.jpg" title = "Sasuni" alt = "my pic 1" width = "200">
+    <img src = "assests/images/img1.jpg" title = "Suasni" alt = "my pic 1" width = "200">
     <img src = "assests/images/img2.jpg" title = "Sasuni" alt = "my pic 2" width = "200">
     <img src = "assests/images/img3.jpg" title = "Sasuni" alt = "my pic 3" width = "200">
     <img src = "assests/images/img4.jpg" title = "Sasuni" alt = "my pic 4" width = "200">
@@ -23,6 +23,51 @@
         <source srcset = "assests/images/img2.jpg" type = "image/jpg" media="(min-width:1000px)">
         <img src = "assests/images/img4.jpg" title = "Sasuni" alt = "my pic 4" width = "200">
     </picture>
+
+    <!--Videos-->
+
+    <!--main attributes in video tag-->
+    <!--auto play with muted ... mute kre nattam play krnn ba auto-->
+    <video
+            src = "assests/videos/car.mp4"
+            controls
+            autoplay
+            muted
+            loop
+            poster = "assests/images/img3.jpg"
+            width = "300px"
+            height = "200px"
+    ></video>
+
+    <video
+            controls
+            autoplay
+            muted
+            loop
+            poster = "assests/images/img3.jpg">
+        <source src = "assests/videos/car.mp4" type = "video/mp4">
+        <source src = "assests/videos/car.webm" type = "video/webm">
+
+        <track
+                src = "assests/videos/subtitle/sample.vtt"
+                kind = "subtitles"
+                srclang="en"
+                label = "English"
+        >
+        <track
+                src = "assests/videos/subtitle/arabic.vtt"
+                kind = "subtitles"
+                srclang="ar"
+                label = "Arabic"
+        >
+    </video>
+
+    <!--Videos-->
+
+    <audio controls>
+        <source src = "assests/audios/audio_file1.mp3" type = "audio/mp3">
+
+    </audio>
 
 </body>
 </html>
